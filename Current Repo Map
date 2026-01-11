@@ -1,0 +1,5 @@
+/
+├── config.py          # Configuration management
+├── main.py            # Main application entry point
+├── README.md          # Documentation
+├── install_tmux.sh    # tmux installation script
