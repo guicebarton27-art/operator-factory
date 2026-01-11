@@ -1,0 +1,41 @@
+### DATE
+Sun Jan 11 06:48:16 UTC 2026
+### PWD
+/workspaces/operator-factory
+### TREE
+total 152
+drwxrwxrwx+ 5 codespace codespace  4096 Jan 11 06:48 .
+drwxr-xrwx+ 5 codespace root       4096 Jan 11 05:06 ..
+-rw-rw-rw-  1 codespace codespace 61506 Jan 11 06:38 .aider.chat.history.md
+-rw-rw-rw-  1 codespace codespace  6903 Jan 11 06:35 .aider.input.history
+drwxr-xr-x+ 2 codespace codespace  4096 Jan 11 05:09 .aider.tags.cache.v4
+-rw-rw-rw-  1 codespace codespace   239 Jan 11 05:45 .env.example
+drwxrwxrwx+ 7 codespace codespace  4096 Jan 11 06:37 .git
+-rw-rw-rw-  1 codespace codespace     8 Jan 11 05:06 .gitignore
+-rw-rw-rw-  1 codespace codespace   219 Jan 11 05:15 Current Repo Map
+-rw-rw-rw-  1 codespace codespace   458 Jan 11 06:36 README.md
+-rw-rw-rw-  1 codespace codespace   163 Jan 11 05:10 Repo Map
+-rw-rw-rw-  1 codespace codespace   770 Jan 11 05:45 config.py
+-rw-rw-rw-  1 codespace codespace   362 Jan 11 06:36 docker-compose down
+-rw-rw-rw-  1 codespace codespace    26 Jan 11 06:36 docker-compose up --build
+-rw-rw-rw-  1 codespace codespace    23 Jan 11 06:36 docker-compose up -d --build
+-rw-rw-rw-  1 codespace codespace  2481 Jan 11 05:45 healthcheck.py
+-rw-rw-rw-  1 codespace codespace   431 Jan 11 05:12 install_tmux.sh
+-rw-rw-rw-  1 codespace codespace  2428 Jan 11 06:36 main.py
+drwxrwxrwx+ 2 codespace codespace  4096 Jan 11 06:48 out
+-rw-rw-rw-  1 codespace codespace   458 Jan 11 06:36 python main.py
+-rw-rw-rw-  1 codespace codespace    64 Jan 11 06:36 python main.py healthcheck
+### PY
+Python 3.12.1
+### PIP
+pip 25.3 from /usr/local/python/3.12.1/lib/python3.12/site-packages/pip (python 3.12)
+### GIT
+## main...origin/main [ahead 6]
+?? .gitignore
+?? out/
+### ENV KEYS
+HOSTNAME=REDACTED
+GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=REDACTED
+RAILS_DEVELOPMENT_HOSTS=REDACTED
+OPENROUTER_KEY_=REDACTED
+OPENROUTER_API_KEY=REDACTED

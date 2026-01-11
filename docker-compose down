@@ -1,0 +1,9 @@
+
+## Environment Variables
+The application requires the following environment variables:
+- `OPENROUTER_API_KEY`: Your OpenRouter API key
+- `OPENROUTER_BASE_URL`: (Optional) OpenRouter API base URL
+- `MIMO_BASE_URL`: (Optional) Mimo API base URL
+- `DEFAULT_MODEL`: (Optional) Default model to use
+
+These can be set in a `.env` file or directly in the environment.
