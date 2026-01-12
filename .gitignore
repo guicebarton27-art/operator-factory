@@ -1,1 +1,6 @@
 .aider*
+.env
+__pycache__/
+.pytest_cache/
+receipts/*.json
+logs/*

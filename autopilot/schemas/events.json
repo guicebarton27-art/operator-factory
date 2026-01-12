@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AutopilotEventEnvelope",
+  "type": "object",
+  "required": ["id", "type", "source", "subject", "time", "data"],
+  "properties": {
+    "id": {"type": "string"},
+    "type": {
+      "type": "string",
+      "enum": [
+        "ProductViewed",
+        "AddToCart",
+        "CheckoutStarted",
+        "OrderPaid",
+        "RefundIssued",
+        "AdImpression",
+        "AdClick",
+        "EmailSent",
+        "EmailClicked",
+        "TicketOpened",
+        "Delivered"
+      ]
+    },
+    "source": {"type": "string"},
+    "subject": {"type": "string"},
+    "time": {"type": "string", "format": "date-time"},
+    "data": {"type": "object"},
+    "specversion": {"type": "string", "default": "1.0"}
+  }
+}
